@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;;
+    box-sizing: border-box;
+}
+.myntra_logo{
+    height: 36px;
+    width: 53px;
+    margin: 0px 0px 0px 19.6px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: white;
+    font-weight: 700;
+    align-items: center;
+    border-bottom:1px solid #ddd9d9;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 0px 0px 9.8px;
+    height: 80px;
+    min-width: 515px;
+    align-items: center;
+    text-transform: uppercase;
+}
+.nav a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    text-decoration: none;
+    padding: 30px 0px;
+}
+.nav a:hover{
+    border-bottom: 3px solid rgba(255, 0, 0, 0.671);
+    border-radius: 2px;
+}
+.nav a sup{
+    color: #ff3f6c;
+    font-weight: 600;
+    font-style: normal;
+    width: 23px;
+    height: 12px;
+    text-align: left;
+    font-size: 10px;
+}
+input{
+    width: 200px;
+    margin: 0px 0px 3px ;
+}
+.searchbar{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background: #f5f5f6;
+    border: 1px solid #f5f5f6;
+    border-radius: 5px;
+}
+
+.search_icon{
+    color: #696e79;
+    padding: 8px 8px;
+
+}
+.search_input{
+    background-color: #f5f5f6;
+    color: #696e79;
+    font-weight: 400;
+    flex-grow: 1;
+    border: 0px solid #f5f5f6;
+    padding: 8px 2px ;
+    font-size: 14px;
+
+}
+.action_bar{
+    display: flex;
+    min-width: 194px;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 10px;
+
+}
+.profile_container{
+    margin: 0px 20px;
+}
+.bag_container{
+    margin: 0px 10px;
+    
+
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    background-color: #fffffd;
+}
+.banner1{
+    width: 80%;
+    margin: 20px 10% 30px;
+}
+.banner2{
+    width: 90%;
+    margin: 0% 5%;
+}
+.category_heading_inside{
+    width: 100%;
+}
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale_item{
+    width: 256px;
+}
+.extra1{
+    width: 90%;
+    margin: 2.5% 5%;
+}
+footer{
+
+    border-top: 2px solid #fafbfc;
+    background-color: #fafbfc;
+}
+.footer_container{
+    display: flex;
+    justify-content: center;
+}
+.online, .policies{
+    text-decoration: none;
+    color: #5f616d;
+    font-size: 9px;
+    margin-left: 40px;
+}
+.online_shooping, .costumer_poicies{
+    display: flex;
+    flex-direction: column;
+ 
+}
+h6{
+    font-size:9px ;
+    margin: 20px;
+}
+    
+
